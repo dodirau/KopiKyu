@@ -1,0 +1,122 @@
+{
+    "Arabica": [
+      {
+        "foto": "images/produk/product_capuchino.jpg",
+        "nama": "Cappuccino Arabica",
+        "size": "100 Gram",
+        "harga": "200.000",
+        "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+      },
+      {
+        "foto": "images/produk/product_espresso.jpg",
+        "nama": "Pahit Arabica",
+        "size": "100 Gram",
+        "harga": "100.000",
+        "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+      },
+      {
+        "foto": "images/produk/product_latte.jpg",
+        "nama": "Latte Arabica",
+        "size": "100 Gram",
+        "harga": "150.000",
+        "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+      },
+      {
+        "nama": "Arabica Machiato",
+        "size": "100 Gram",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://th.bing.com/th/id/R.f060c663fc1d71caf348631265bf6da3?rik=c3LOHmytTyOEAw&riu=http%3a%2f%2fcoffeebeanflavor.com%2fwp-content%2fuploads%2f2016%2f07%2fMacchiatto.jpg&ehk=inIube91XfxGv7VIafleGcvTn9y5ePmw6LOHtBjTTQ0%3d&risl=&pid=ImgRaw&r=0"
+      }
+    ],
+    "Robusta": [
+      {
+        "foto": "images/produk/product_kopi_susu.jpg",
+        "nama": "Kopsus Robusta",
+        "size": "100 Gram",
+        "harga": "80.000",
+        "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+      },
+      {
+        "foto": "images/produk/product_latte.jpg",
+        "nama": "Latte Robusta",
+        "size": "150 Gram",
+        "harga": "150.000",
+        "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+      },
+      {
+        "nama": "Robusta Mocaccino",
+        "size": "100 Gram",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://osojimix.com/wp-content/uploads/2021/07/MOCACCINO.jpg"
+      },
+      {
+        "nama": "Robusta Original",
+        "size": "100 Gram",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://th.bing.com/th/id/OIP.WTWQjiDKwkOrE4sf_oL0JgHaGR?rs=1&pid=ImgDetMain"
+      }
+    ],
+    "Non Kopi": [
+      {
+        "foto": "https://img.freepik.com/free-photo/top-view-set-ice-cream-cones-with-chocolate_23-2148425392.jpg",
+        "nama": "Ice Cream",
+        "size": "100 Gram",
+        "harga": "10.000",
+        "link": "https://www.google.com/search?q=ice+cream+cone&tbm=shop"
+      },
+      {
+        "nama": "Jus Buah Naga Bonar",
+        "size": "100 Gram",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://th.bing.com/th/id/OIP.qXaexLoRPrBEn1ZuvWU3JQHaEK?w=304&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+      },
+      {
+        "nama": "Vietnamese Iced Coffee",
+        "size": "100 Gram",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://th.bing.com/th/id/OIP.jbZS-NOI8JfCyNw1P1l9MwHaE4?rs=1&pid=ImgDetMain"
+      },
+      {
+        "nama": "Mactha Cih",
+        "size": "100 Gram",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://www.baristatrainingacademy.net/wp-content/uploads/2020/01/matcha-coffee.jpg"
+      }
+    ],
+    "Gorengan": [
+      {
+        "nama": "Tahu Isi",
+        "size": "10 Pcs",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://www.gotravelly.com/blog/wp-content/uploads/2020/09/tahu-isi.jpg"
+      },
+      {
+        "nama": "Pisang Goreng",
+        "size": "10 Pcs",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "http://1.bp.blogspot.com/-BiGA3EVqe9E/VgX56L1bJjI/AAAAAAAADMo/ptAR5POcIWE/s1600/IMG_3863.JPG"
+      },
+      {
+        "nama": "Mendoan Americano",
+        "size": "10 Pcs",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://th.bing.com/th/id/OIP.NW6HGGpIDWAp8HGNdYZCBgAAAA?rs=1&pid=ImgDetMain"
+      },
+      {
+        "nama": "Tahu Crispy Macedonia",
+        "size": "10 Pcs",
+        "harga": "10.000",
+        "link": "#",
+        "foto": "https://th.bing.com/th/id/OIP.dhdl6qVnncHJSB2mf2rfBQHaFv?rs=1&pid=ImgDetMain"
+      }
+    ]
+  }

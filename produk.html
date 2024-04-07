@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <title>Produk</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/produk.css">
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
+
+  </style>
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+
+  <nav class="navbar navbar-dark bg-secondary navbar-expand-lg bisadicopy">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo/logo_kuy.png" height="40" alt="image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+        aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav11">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#our-team">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#review">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+          </li>
+        </ul>
+        <a class="btn btn-outline-light ms-md-3" href="https://wa.me/6281290465033"><i class="bi bi-whatsapp"></i>
+          Chat</a>
+      </div>
+    </div>
+  </nav>
+  <section class="riki-block produk text-center my-5 py-5">
+    <div class="container">
+      <h1>Pilih Produk Anda</h1>
+      <p class="fs-4">Kualitas Biji Kopi Terbaik Yang Dirawat Seperti Anak Sendiri</p>
+      <hr class="border border-secondary border-3 opacity-75">
+
+      <!-- Ini Untuk Select -->
+      <div class="form-floating col-lg-3 mx-auto">
+        <select class="form-select" id="select_kopi" aria-label="Floating label select example">
+          <option selected disabled>-</option>
+          <option value="arabica">Arabica</option>
+          <option value="robusta">Robusta</option>
+          <option value="nonkopi">Non Kopi</option>
+        </select>
+        <label for="select_kopi">Pilih Jenis Kopi</label>
+      </div>
+      <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Capuchino</h5>
+              <div class="row hargasize my-4">
+                <div class="col">
+                  <a href="#"></a><i class="bi-basket"></i> 120 gram</a>
+                </div>
+                <div class="col fw-bold text-primary">
+                  58K
+                </div>
+              </div>
+              <a href="#" class="btn btn-secondary w-100"><i class="bi bi-cart4"></i> Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <div class="row hargasize my-4">
+                <div class="col">
+                  <a href="#"></a><i class="bi-basket"></i> 120 gram</a>
+                </div>
+                <div class="col fw-bold text-primary">
+                  60K
+                </div>
+              </div>
+              <a href="#" class="btn btn-secondary w-100"><i class="bi bi-cart4"></i> Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kopi Susu</h5>
+              <div class="row hargasize my-4">
+                <div class="col">
+                  <a href="#"></a><i class="bi-basket"></i> 120 gram</a>
+                </div>
+                <div class="col fw-bold text-primary">
+                  55K
+                </div>
+              </div>
+              <a href="#" class="btn btn-secondary w-100"><i class="bi bi-cart4"></i> Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card">
+            <img src="images/produk/product_latte.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Latte</h5>
+              <div class="row hargasize my-4">
+                <div class="col">
+                  <a href="#"></a><i class="bi-basket"></i> 120 gram</a>
+                </div>
+                <div class="col fw-bold text-primary">
+                  50K
+                </div>
+              </div>
+              <a href="#" class="btn btn-secondary w-100"><i class="bi bi-cart4"></i> Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="riki-block footer-small py-4 bg-secondary">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-8">
+          <ul class="nav justify-content-center justify-content-md-start">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#our-team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+          © 2023 Riki &amp; Froala . All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/produk.js"></script>
+  <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+
+baris_produk.innerHTML = ""
+    var data_mentah = {
+      "Kopi": [
+        {
+          "nama": "Kopi Enak",
+          "foto": "images/produk/product_capuchino.jpg",
+          "size": "120 ml",
+          "harga": "58000",
+          "link": "http://www.google.com"
+        },
+        {
+          "nama": "Espresso",
+          "foto": "images/produk/product_espresso.jpg",
+          "size": "120 ml",
+          "harga": "58000",
+          "link": "http://www.google.com"
+        },
+        {
+          "nama": "Latte",
+          "foto": "images/produk/product_latte.jpg",
+          "size": "120 ml",
+          "harga": "58000",
+          "link": "http://www.google.com"
+        }
+      ],
+      "Teh": [
+        {
+          "nama": "Es Teh Manis",
+          "foto": "https://akcdn.detik.net.id/visual/2020/04/18/b0dd84fe-847e-42dc-9439-49b91a2cc23c_169.jpeg?w=650",
+          "size": "120 ml",
+          "harga": "58000",
+          "link": "http://www.google.com"
+        }
+      ],
+      "Makanan": [
+        {
+          "nama": "Gorengan",
+          "foto": "https://th.bing.com/th/id/R.f5585438e9453aa77cb305bcb1cd79e3?rik=2EN79GUb5b6xZA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-BiGA3EVqe9E%2fVgX56L1bJjI%2fAAAAAAAADMo%2fptAR5POcIWE%2fs1600%2fIMG_3863.JPG&ehk=txAWfTpCB0cBoLsn8HoCX5kuILJjUw8AFy6daBCTp3Q%3d&risl=&pid=ImgRaw&r=0",
+          "size": "120 ml",
+          "harga": "58000",
+          "link": "http://www.google.com"
+        }
+      ]
+    }
+    var data_kopi = []
+
+    console.log(data_mentah)
+
+    var sumber = "https://rikikurnia.com/prakerja/api/kopi"
+    var sumber2 = "data.json"
+
+    $.getJSON(sumber2).then(function (data) {
+      console.log(data)
+      data_mentah = data
+      updateselect()
+    })
+
+    function updateselect() {
+      select_kopi.innerHTML = `<option selected disabled>-</option>`
+      Object.keys(data_mentah).forEach(function (opsi) {
+        select_kopi.innerHTML += `<option value="${opsi}">${opsi}</option>`
+
+      })
+
+    }
+
+
+
+    function updateTampilan() {
+      baris_produk.innerHTML = ""
+      data_kopi.forEach(function (kopi) {
+
+        baris_produk.innerHTML += `<div class="col mb-4">
+          <div class="card">
+            <img src="${kopi.foto}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">${kopi.nama}</h5>
+              <div class="row hargasize my-4">
+                <div class="col">
+                  <a href="#"></a><i class="bi-basket"></i> ${kopi.size}</a>
+                </div>
+                <div class="col fw-bold text-primary">
+                  ${kopi.harga}
+                </div>
+              </div>
+              <a href="#" class="btn btn-secondary w-100"><i class="bi bi-cart4"></i> Beli</a>
+            </div>
+          </div>
+        </div>`
+
+      })
+    }
+
+
+    select_kopi.onchange = function () {
+      console.log(select_kopi.value)
+      data_kopi = data_mentah[select_kopi.value]
+      console.log(data_kopi)
+      updateTampilan()
+    }
+
+
+
+
+  </script>
+</body>
+
+</html>
